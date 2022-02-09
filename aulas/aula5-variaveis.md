@@ -1,13 +1,5 @@
-# Variáveis e comentários
+# Aula 5 -  Variáveis
 
-//Com essas barras nós comentamos uma linha no javascript
-
-/*
-este é para comentário em bloco
-*/
-
-## Variáveis
-#
 Em javascript as variáveis são declaradas da seguinte maneira:
 
 var nome = 'edilson'; ou
@@ -19,7 +11,7 @@ Não podem conter espaços;
 Não podem ser palavras reservadas;
 
 ## Tipos de dados
-#
+
 TIPOS DE DADOS (pode-se usar o typeof para saber o tipo de dados):
 
 number; Infinity e NaN
@@ -30,5 +22,13 @@ undefined;
 object; Array
 function;
 
+## Comentarios
 
+//Com essas barras nós comentamos uma linha no javascript
+
+/*
+este é para comentário em bloco
+*/
+
+#
 

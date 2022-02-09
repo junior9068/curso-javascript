@@ -1,3 +1,5 @@
+# Aula 3 - Iniciando...
+
 Livros recomendados:
 * Javascript - O guia definitivo
 * Javascript - Guia do programador

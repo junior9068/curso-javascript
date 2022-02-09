@@ -1,3 +1,4 @@
+# Aula 2 - Historia do Javascript
 Em meados da década de 60 houve a guerra fria. Estados Unidos perdia feio... Em 1970 o presidente dos Estados Unidos decretu a criação de em centro para estudar melhorias tecnológiacas para a guerra: DARPA. O DARPA foi evoluindo e foi criado a ARPANET que concentrava todos os dados em uma redundância. Não demorou muito e outras pequenas 'redes' foram se juntando à ARPANET que em pouco tempo ficou gigantesca e se tornou a tão conhecida internet. 
 
 Em 1993, em Genebra, criou as tecnologias WWW e o HTML.
