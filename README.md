@@ -122,3 +122,37 @@ OBS: Cuidado com a ordem de precedencia:
 Podemos simplificar o operador var x += 1 para x++
 #
 # Aula 8 - Operadores2
+
+Operadores relacionais: < > >= <= == !=
+
+Sempre retornam um boleano: True ou False
+
+Ex: ``` 8 > 9 = false```
+
+Operadores de Identidade:
+
+Para o Javascript o 8 == '8' vai ser True... Resolvemos isso com o operador ===
+
+Operadores Logicos: 
+
+! Negacao
+
+&& Conjuncao (e)
+
+|| Disjuncao (ou)
+
+Ha uma ordem de precedencia para os operadores: 
+
+1 - Operadores Aritimeticos.
+
+2 - Operadores Relacionais - Sempre da esquerda para a direita
+
+3 - Operadores Logicos nesta ordem !, &&, ||
+
+Operador Ternario: ?, :
+
+O operador ternario tem tres partes : expressao ? true : false
+
+ex: ```media >= 7 ? 'APROVADO' : 'REPROVADO'```
+
+
