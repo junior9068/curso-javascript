@@ -156,3 +156,5 @@ O operador ternario tem tres partes : expressao ? true : false
 ex: ```media >= 7 ? 'APROVADO' : 'REPROVADO'```
 
 
+#
+# Aula 9 - 
