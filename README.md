@@ -182,4 +182,9 @@ Vide ex005.html para exemplos.
 #
 # Aula 10 - Eventos DOM
 
+Evento é tudo aquilo que possa acontecer com uma div, por exemplo um evento de mouse:
+
+mouseenter, mousemove, mousedown, mouseup, click e mouseout.
+
+Vide exercícios ex006 e ex007.
 
