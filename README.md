@@ -157,4 +157,29 @@ ex: ```media >= 7 ? 'APROVADO' : 'REPROVADO'```
 
 
 #
-# Aula 9 - 
+# Aula 9 - Introdução ao DOM
+
+DOM é um acrônimo para Document Object Model (Modelo de Objetos para Documetnos). É um conjunto e objetos dentro do navegador que dará acesso aos componentes internos do Site que está sendo desenvolvido.
+
+O DOM só está presente no javascript rodando no navegador. 
+
+ÁRVORE DOM:
+
+Tudo do DOm estará dentro do window. Dentro de window tem vários elementos que seguem uma ordem hierárquica. Veja um pequeno exemplo na imagem:
+
+![Arvore Dom](imagens/arvore.png)
+
+Existem vários métodos de acesso a esses elementos:  
+
+* Por marca ```document.getElementsByTagName()```
+* Por ID ```document.getElementById()```
+* Por Nome ```document.getElementsByName()```
+* Por Classe ```document.getElementsByClassName()```
+* Por Seletor ```querySelector()``` | ```querySelectorAll()```
+
+Vide ex005.html para exemplos.
+
+#
+# Aula 10 - Eventos DOM
+
+
