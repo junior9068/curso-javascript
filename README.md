@@ -189,4 +189,26 @@ mouseenter, mousemove, mousedown, mouseup, click e mouseout.
 Vide exercícios ex006 e ex007.
 
 #
-# Aula 11 - 
+# Aula 11 e 12 - Condições
+
+Na programação existem as condições simples (que tem apenas if), as compostas (composta de if e else), as condições aninhadas representadas pelo else if e as condições multiplas representadas pelo switch case:
+
+```
+switch (expressão){
+    case valor 1:
+        bloco
+        break
+    case valor 2:
+        bloco
+        break
+    case valor 3:
+        bloco
+        break
+    case valor 4:
+        bloco
+        break
+    default:
+        bloco
+}
+```
+OBS: O COMANDO ```break``` É OBRIGATÓRIO E DEVE ESTAR PRESENTE EM CADA BLOCO
