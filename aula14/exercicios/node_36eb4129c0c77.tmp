@@ -1,0 +1,10 @@
+function tabuada(){
+    //var n = Number.parseInt(document.getElementById('numero').value)
+    c = 0
+    n = 7
+    while (c <= 10) {
+        console.log(`${n} x ${c} = ${n * c}`)
+    }
+    
+}
+tabuada()

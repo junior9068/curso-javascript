@@ -212,3 +212,15 @@ switch (expressão){
 }
 ```
 OBS: O COMANDO ```break``` É OBRIGATÓRIO E DEVE ESTAR PRESENTE EM CADA BLOCO
+
+#
+# Aula 13 e 14- Repetições
+
+o for tem uma sintaxe diferente:
+
+```
+for (var c = 1; c <= 10; c++){
+    console.log(c)
+}
+
+```
