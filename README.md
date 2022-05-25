@@ -72,7 +72,7 @@ n = 1
 Number.parseInt(n)
 Number.parseFloat(n)
 
-Na verso nova da linguagem eh possivel resolver de modo mais simples e enxuto: 
+Na versão nova da linguagem é possivel resolver de modo mais simples e enxuto: 
 
 Number(n)
 
@@ -216,11 +216,72 @@ OBS: O COMANDO ```break``` É OBRIGATÓRIO E DEVE ESTAR PRESENTE EM CADA BLOCO
 #
 # Aula 13 e 14- Repetições
 
-o for tem uma sintaxe diferente:
+o for tem uma sintaxe diferente: Dentro dos parênteses, onde fica a condição, deve haver: Inicialização, teste lógico e incremento. EX:
 
 ```
 for (var c = 1; c <= 10; c++){
     console.log(c)
 }
 
+```
+#
+# Aula 15 - Variáveis Compostas
+
+Em javascript as variáveis compostas são chamadas de array ou vetor
+
+Navegar no script:
+
+```
+num = [1,2,3,4,5]
+for (let pos in num){
+    console.log(pos)
+}
+```
+Buscar um valor dentro do array:
+
+```
+num.indexOf(3)
+//Onde 3 é o valor dentro do array
+//A saída é a posição do valor 3 no array, que neste caso é 2
+//Se o valor não existir no array a saida será -1
+```
+
+#
+# Aula 16 - Funções
+
+Funções são ações executadas assim que são chamadas ou em decorrência de algum evento. Uma função pode receber parâmetros e retornar um resultado.
+
+```
+function exemplo(param1, param2){
+    return param1 + param2
+}
+```
+
+#
+# Aula 17 - Próximos Passos
+
+Fazer o curso de HTML 5 e CSS;
+Estudar Funções;
+Estudar objetos;
+Estudar Modularização;
+Estudar RegEx (Expressões Regulares);
+Estudar JSON;
+Estudar AJAX;
+Estudar NodeJS;
+
+## Introdução a Objetos
+
+Declarar um objeto: 
+```let amigo = {nome: "Jośe", sexo: "M", peso: 90}```
+
+É possível criar uma função dentro de um objeto:
+
+```javascript
+let amigo = {nome: "Jośe", 
+sexo: "M", peso: 90, engordar(p){
+    console.log("Engordou")
+    this.peso + p
+}}
+amigo.engordar(2)
+console.log(`${amigo.nome} pesa ${amigo.peso}Kg`)
 ```
